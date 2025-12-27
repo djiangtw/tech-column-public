@@ -1,223 +1,237 @@
-# Tech Column - 技術專欄
+# Tech Column
 
-**深入淺出的系統架構與硬體設計**
+**In-Depth System Architecture and Hardware Design**
 
-**作者**: Danny Jiang  
-**授權**: CC BY 4.0 International  
-**最後更新**: 2025 年 12 月
-
----
-
-## 📖 關於本專欄
-
-Tech Column 是一個技術寫作專案，專注於系統架構、硬體設計和性能優化領域。本專欄的目標是用生動的比喻和真實的案例，將複雜的技術概念解釋得清晰易懂，讓讀者不僅知道「是什麼」，更理解「為什麼」。
-
-**關於案例**：本專欄文章中的案例場景均為**模擬場景**，基於業界先進經驗並隱去機敏資訊撰寫。所有內容符合職業道德和保密協議要求，不涉及任何公司的專有技術或商業機密。
-
-### 本專欄的特色
-
-- **生動的比喻**：用圖書館理解 Cache、用停車場理解 Associativity、用城市交通理解 NoC
-- **真實的案例**：來自 20+ 年產業經驗的實際問題和解決方案
-- **循序漸進**：從入門到進階，系統性地建立知識體系
-- **實務導向**：不只是理論，更提供可執行的優化建議和設計原則
+[![Language](https://img.shields.io/badge/Language-繁體中文-blue)]()
+[![Series](https://img.shields.io/badge/Series-6-blue)]()
+[![Articles](https://img.shields.io/badge/Articles-90-blue)]()
+[![License](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey)](https://creativecommons.org/licenses/by/4.0/)
+[![Author](https://img.shields.io/badge/Author-Danny%20Jiang-orange)]()
+[![Updated](https://img.shields.io/badge/Updated-Dec%202025-green)]()
 
 ---
 
-## 📚 文章系列
+## 📖 About This Column
 
-### Cache Architecture 系列
+Tech Column is a technical writing project focused on system architecture, hardware design, and performance optimization. The goal is to explain complex technical concepts clearly using vivid analogies and real-world cases, helping readers understand not just "what" but "why."
 
-深入探討 CPU Cache 的設計與優化，從基礎概念到實戰應用。
+**About the Cases**: All case scenarios in this column are **mock scenarios**, written based on industry best practices with all sensitive information removed. All content complies with professional ethics and NDA requirements.
 
-1. [Cache 基礎概念入門：用圖書館理解 CPU Cache](topics/cache-architecture/01-cache-basics.md)
-2. [理解 Cache Associativity：停車場的智慧](topics/cache-architecture/02-cache-associativity.md)
-3. [現代 CPU Cache 架構設計：從 L1 到 L3 的設計哲學](topics/cache-architecture/03-modern-cache-design.md)
-4. [Cache Coherency 與 MESI 協議：多核心時代的一致性挑戰](topics/cache-architecture/04-cache-coherency-mesi.md)
-5. [Cache 性能優化實戰：從理論到實踐](topics/cache-architecture/05-cache-optimization.md)
-6. [False Sharing 與多執行緒優化：看不見的性能殺手](topics/cache-architecture/06-false-sharing.md)
+### Features
 
-**系列特色**：
-- 📖 從入門到進階，循序漸進
-- 🎯 用生動的比喻解釋複雜概念（圖書館、停車場）
-- �� 結合真實案例與實務經驗
-- 🔧 提供可執行的優化建議
-
-**總字數**：約 20,800 字
+- **Vivid Analogies**: Understand Cache through libraries, Associativity through parking lots, NoC through city traffic
+- **Real-World Cases**: Practical problems and solutions from 20+ years of industry experience
+- **Progressive Learning**: From beginner to advanced, systematically building knowledge
+- **Practice-Oriented**: Not just theory, but actionable optimization advice and design principles
 
 ---
 
-### Network-on-Chip 系列
+## 📊 Project Statistics
 
-探索晶片內部的通訊架構，從 Bus 到 Network 的演進。
+| Series | Articles | Word Count |
+|--------|----------|------------|
+| Cache Architecture | 6 | ~20,800 |
+| Network-on-Chip | 6 | ~14,100 |
+| Storage Architecture | 9 | ~39,200 |
+| Embedded RTOS | 8 | ~24,000 |
+| Bluetooth & IoT | 21 | ~70,000 |
+| Building danieRTOS | 40 | ~170,000 |
 
-1. [Network-on-Chip 入門：從 Bus 到 Network 的演進](topics/network-on-chip/01-noc-introduction.md)
-2. [NoC 拓撲結構的圖論分析：從數學到硬體](topics/network-on-chip/02-topology-graph-theory.md)
-3. [NoC 路由演算法與死鎖避免：從理論到實作](topics/network-on-chip/03-routing-deadlock.md)
-4. [Router 微架構設計：從 Pipeline 到硬體實作](topics/network-on-chip/04-router-microarchitecture.md)
-5. [NoC 與 Cache Coherency 整合：多核心的協調藝術](topics/network-on-chip/05-noc-cache-coherency.md)
-6. [NoC 與先進封裝：突破物理邊界](topics/network-on-chip/06-noc-advanced-packaging.md)
-
-**系列特色**：
-- 🌐 從基礎到前沿技術
-- 📊 結合圖論與硬體設計
-- 🔬 深入探討 Router 微架構
-- 🚀 涵蓋先進封裝技術（Chiplet、UCIe、CoWoS）
-
-**總字數**：約 14,100 字
+**Total**: 90 articles, ~338,100 words (Traditional Chinese)
 
 ---
 
-## 🎯 目標讀者
+## 📚 Article Series
 
-本專欄適合：
+### 1. Cache Architecture Series
 
-- **系統軟體工程師**：想要理解硬體如何影響軟體性能
-- **硬體工程師**：從事 CPU、SoC 設計和驗證
-- **性能優化工程師**：需要深入理解 Cache 和 NoC 行為
-- **電腦架構學生**：在真實世界情境中學習系統架構
-- **技術愛好者**：對計算機底層原理感興趣
+Deep dive into CPU Cache design and optimization, from basics to practice.
 
-**先備知識**：
-- 基本的計算機組織概念
-- 理解 CPU、記憶體、匯流排等基本元件
-- 有程式設計經驗（有幫助但非必需）
+1. [Cache Basics: Understanding CPU Cache Through Libraries](topics/cache-architecture/01-cache-basics.md)
+2. [Understanding Cache Associativity: The Wisdom of Parking Lots](topics/cache-architecture/02-cache-associativity.md)
+3. [Modern CPU Cache Architecture: Design Philosophy from L1 to L3](topics/cache-architecture/03-modern-cache-design.md)
+4. [Cache Coherency and MESI Protocol: Consistency Challenges in Multi-Core Era](topics/cache-architecture/04-cache-coherency-mesi.md)
+5. [Cache Performance Optimization in Practice](topics/cache-architecture/05-cache-optimization.md)
+6. [False Sharing and Multi-Threading Optimization: The Invisible Performance Killer](topics/cache-architecture/06-false-sharing.md)
 
 ---
 
-## 📊 統計資訊
+### 2. Network-on-Chip Series
 
-- **文章總數**：12 篇
-- **總字數**：約 35,000 字
-- **系列數**：2 個
-- **涵蓋主題**：Cache、NoC、性能優化、多核心架構、先進封裝
-- **最後更新**：2025 年 12 月
+Exploring on-chip communication architecture, from Bus to Network evolution.
 
----
-
-## 📄 授權
-
-**版權所有 © 2025 Danny Jiang**
-
-本專欄所有文章採用 **Creative Commons Attribution 4.0 International License (CC BY 4.0)** 授權。
-
-**您可以自由地：**
-
-- **分享** — 以任何媒介或格式複製及散布本素材
-- **修改** — 重混、轉換本素材，及依本素材建立新素材，且為任何目的，包含商業性質之使用
-
-**惟需遵守下列條件：**
-
-- **姓名標示** — 您必須給予適當表彰、提供指向本授權條款的連結，以及指出（本作品的原始版本）是否已被變更
-
-**授權條款**：https://creativecommons.org/licenses/by/4.0/
+1. [Network-on-Chip Introduction: Evolution from Bus to Network](topics/network-on-chip/01-noc-introduction.md)
+2. [NoC Topology Analysis with Graph Theory](topics/network-on-chip/02-topology-graph-theory.md)
+3. [NoC Routing Algorithms and Deadlock Avoidance](topics/network-on-chip/03-routing-deadlock.md)
+4. [Router Microarchitecture Design: From Pipeline to Hardware](topics/network-on-chip/04-router-microarchitecture.md)
+5. [NoC and Cache Coherency Integration](topics/network-on-chip/05-noc-cache-coherency.md)
+6. [NoC and Advanced Packaging: Breaking Physical Boundaries](topics/network-on-chip/06-noc-advanced-packaging.md)
 
 ---
 
-## �� 如何使用本專欄
+### 3. Storage Architecture Series
 
-### 線上閱讀
+Complete perspective from hardware to software on modern storage systems.
 
-直接在 GitHub 上瀏覽 Markdown 檔案：
-- **Cache Architecture 系列**：從 `topics/cache-architecture/01-cache-basics.md` 開始
-- **Network-on-Chip 系列**：從 `topics/network-on-chip/01-noc-introduction.md` 開始
+1. [Storage Systems Introduction: From HDD to SSD](topics/storage-architecture/01-introduction.md)
+2. [SATA and AHCI: Deep Dive into Traditional Storage Interfaces](topics/storage-architecture/02-sata-ahci.md)
+3. [PCIe Architecture: Foundation of High-Speed Interconnect](topics/storage-architecture/03-pcie.md)
+4. [NVMe Protocol: Interface Born for SSDs](topics/storage-architecture/04-nvme.md)
+5. [CXL Technology: Fusion of Memory and Storage](topics/storage-architecture/05-cxl.md)
+6. [FTL Deep Dive: The Soul of SSDs](topics/storage-architecture/06-ftl.md)
+7. [GC and Wear Leveling: SSD Longevity Secrets](topics/storage-architecture/07-gc-wear-leveling.md)
+8. [Error Correction Codes: Guardians of Data Integrity](topics/storage-architecture/08-error-correction.md)
+9. [Advanced Topics: ZNS, Computational Storage](topics/storage-architecture/09-advanced-topics.md)
 
-### 離線閱讀
+---
 
-Clone 此 repository：
+### 4. Embedded RTOS Series
+
+Practice-oriented embedded RTOS development with FreeRTOS + RISC-V.
+
+1. [RTOS Introduction: Why Real-Time Operating Systems](topics/embedded-rtos/01-rtos-introduction.md)
+2. [Scheduler Deep Dive: The Art of Task Scheduling](topics/embedded-rtos/02-scheduler-deep-dive.md)
+3. [Interrupt Handling: The Heartbeat of Real-Time Systems](topics/embedded-rtos/03-interrupt-handling.md)
+4. [Memory Management: From heap_1 to heap_5](topics/embedded-rtos/04-memory-management.md)
+5. [Debugging with GDB + QEMU](topics/embedded-rtos/05-debugging-with-gdb-qemu.md)
+6. [RTOS SMP: Multi-Core Challenges](topics/embedded-rtos/06-rtos-smp.md)
+7. [Context Switch Assembly Deep Dive](topics/embedded-rtos/07-context-switch-assembly.md)
+8. [RISC-V Privilege Modes: M/S/U Mode](topics/embedded-rtos/08-privilege-modes.md)
+
+---
+
+### 5. Bluetooth & IoT Series
+
+BLE protocol stack, wireless communication, IoT system integration.
+
+See [topics/bluetooth-wireless-iot/](topics/bluetooth-wireless-iot/) for complete article list (21 articles).
+
+---
+
+### 6. Building danieRTOS Series
+
+Building a RISC-V RTOS from scratch, narrative-style writing, 40 complete tutorials.
+
+**danieRTOS** is an educational minimal RTOS running on RISC-V architecture.
+
+| Version | Alias | Chapters | Core Features |
+|---------|-------|----------|---------------|
+| v0.x | Nano | 01-12 | Basic RTOS: Task, Scheduler, Semaphore, Mutex, Queue |
+| v1.x | Secure | 13-19 | User Mode: PMP, Syscall, Fault Handling |
+| v2.x | MSMP | 20-30 | SMP: Spinlock, IPI, Multi-core Scheduler |
+| v3.x | SMP | 31-40 | Integration: SMP + User Mode + Fault Isolation |
+
+See [topics/building-daniertos/README.md](topics/building-daniertos/README.md) for complete article list.
+
+---
+
+## 🎯 Target Audience
+
+This column is suitable for:
+
+- **System Software Engineers**: Understanding how hardware affects software performance
+- **Embedded Engineers**: RTOS, drivers, firmware development
+- **Hardware Engineers**: CPU, SoC design and verification
+- **IoT Developers**: Bluetooth, wireless communication, IoT development
+- **Computer Architecture Students**: Learning system architecture in real-world contexts
+
+**Prerequisites**:
+
+- Basic computer organization concepts
+- Understanding of CPU, memory, bus components
+- C programming experience (required for some series)
+
+---
+
+## 📄 License
+
+**Copyright © 2025 Danny Jiang**
+
+All articles are licensed under **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
+
+**You are free to**:
+
+- **Share** — copy and redistribute the material in any medium or format
+- **Adapt** — remix, transform, and build upon the material for any purpose, including commercial
+
+**Under the following terms**:
+
+- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made
+
+**License**: <https://creativecommons.org/licenses/by/4.0/>
+
+---
+
+## 📖 How to Use This Column
+
+### Online Reading
+
+Browse Markdown files directly on GitHub, starting from the first article of each series.
+
+### Offline Reading
+
+Clone this repository:
+
 ```bash
 git clone https://github.com/djiangtw/tech-column-public.git
 cd tech-column-public
 ```
 
-使用任何 Markdown 閱讀器或文字編輯器閱讀檔案。
+### Recommended Reading Order
 
-### 推薦閱讀順序
+**Hardware Architecture Beginners**: Cache Architecture → Network-on-Chip → Storage Architecture
 
-**初學者**：
-1. 先讀 Cache Architecture 系列（01-06）
-2. 再讀 Network-on-Chip 系列（01-06）
+**Embedded Systems**: Embedded RTOS → Building danieRTOS
 
-**有經驗的工程師**：
-- 可以根據興趣選擇特定主題
-- 每篇文章都相對獨立，可以單獨閱讀
+**Wireless Communication**: Bluetooth & IoT Series
 
 ---
 
-## 🤝 貢獻
+## 🤝 Contributing
 
-這是一個唯讀的公開 repository。本專欄在私有 repository 中開發。
+This is a read-only public repository. The column is developed in a private repository.
 
-**歡迎回饋**：
-- 針對錯字、錯誤或建議開 issue
-- 鼓勵討論和提問
-- 分享您的閱讀心得
+**Feedback Welcome**:
 
-**注意**：無法接受 pull request，因為這是從私有開發 repository 單向同步的。
+- Open issues for typos, errors, or suggestions
+- Discussion and questions are encouraged
+
+**Note**: Pull requests cannot be accepted as this is synced one-way from the private development repository.
 
 ---
 
-## 👨‍💻 關於作者
+## 👨‍💻 About the Author
 
 **Danny Jiang**
 
-系統軟體工程師，專注於 RISC-V 架構、嵌入式系統、性能優化。20+ 年產業經驗，熱愛用生動的比喻解釋複雜的技術概念。
+System software engineer focused on RISC-V architecture, embedded systems, and performance optimization. 20+ years of industry experience, passionate about explaining complex technical concepts through vivid analogies.
 
-**專業領域**：
-- RISC-V 架構與系統軟體
-- CPU Cache 與性能優化
-- Network-on-Chip 設計
-- 嵌入式系統開發
+**Other Works**:
 
-**其他作品**：
-- [See RISC-V Run: Fundamentals](https://github.com/djiangtw/see-riscv-run-public) - RISC-V 架構完整指南
-- [Data Structures in Practice](https://github.com/djiangtw/data-structures-in-practice-public) - 硬體導向的資料結構
+- [See RISC-V Run: Fundamentals](https://github.com/djiangtw/see-riscv-run-public) - Complete RISC-V Architecture Guide
+- [Data Structures in Practice](https://github.com/djiangtw/data-structures-in-practice-public) - Hardware-Oriented Data Structures
 
 ---
 
-## 🔗 連結
+## 🔗 Links
 
-- **GitHub**: https://github.com/djiangtw/tech-column-public
-- **作者**: [Danny Jiang](https://github.com/djiangtw)
+- **GitHub**: <https://github.com/djiangtw/tech-column-public>
 - **Email**: djiang.tw@gmail.com
 - **LinkedIn**: [linkedin.com/in/danny-jiang-26359644](https://www.linkedin.com/in/danny-jiang-26359644/)
 
 ---
 
-## 📝 引用
+## 📝 Citation
 
-如果您在研究、教學或文章中引用本專欄，請使用：
+If you cite this column in research, teaching, or articles:
 
+```text
+Danny Jiang. (2025). Tech Column: In-Depth System Architecture and Hardware Design.
+Licensed under CC BY 4.0. https://github.com/djiangtw/tech-column-public
 ```
-Danny Jiang. (2025). Tech Column - 技術專欄：深入淺出的系統架構與硬體設計.
-採用 CC BY 4.0 授權. https://github.com/djiangtw/tech-column-public
-```
 
 ---
 
-## 🙏 致謝
+**Happy Reading!** 📖
 
-本專欄得以完成，感謝：
-
-- **技術社群**：RISC-V、ARM、開源硬體社群的知識分享
-- **經典教材**：*Computer Architecture: A Quantitative Approach*、*See MIPS Run* 等啟發
-- **早期讀者**：提供寶貴的反饋和建議
-- **家人和朋友**：在寫作過程中給予支持
-
----
-
-## 📅 更新計劃
-
-**已完成**：
-- ✅ Cache Architecture 系列（6 篇）
-- ✅ Network-on-Chip 系列（6 篇）
-
-**規劃中**：
-- 🔄 Lock-Free Programming 系列
-- 🔄 System Architecture 系列
-- 🔄 更多主題持續更新中...
-
----
-
-**祝閱讀愉快！** 📖
-
-如有任何問題或建議，歡迎透過 GitHub Issues 與我聯繫。
+For any questions or suggestions, feel free to contact me through GitHub Issues.
