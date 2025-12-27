@@ -4,7 +4,7 @@
 
 [![Language](https://img.shields.io/badge/Language-繁體中文-blue)]()
 [![Series](https://img.shields.io/badge/Series-6-blue)]()
-[![Articles](https://img.shields.io/badge/Articles-90-blue)]()
+[![Articles](https://img.shields.io/badge/Articles-93-blue)]()
 [![License](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey)](https://creativecommons.org/licenses/by/4.0/)
 [![Author](https://img.shields.io/badge/Author-Danny%20Jiang-orange)]()
 [![Updated](https://img.shields.io/badge/Updated-Dec%202025-green)]()
@@ -32,83 +32,58 @@ Tech Column is a technical writing project focused on system architecture, hardw
 |--------|----------|------------|
 | Cache Architecture | 6 | ~20,800 |
 | Network-on-Chip | 6 | ~14,100 |
-| Storage Architecture | 9 | ~39,200 |
+| Storage Architecture | 12 | ~52,000 |
 | Embedded RTOS | 8 | ~24,000 |
 | Bluetooth & IoT | 21 | ~70,000 |
 | Building danieRTOS | 40 | ~170,000 |
 
-**Total**: 90 articles, ~338,100 words (Traditional Chinese)
+**Total**: 93 articles, ~350,900 words (Traditional Chinese)
 
 ---
 
 ## 📚 Article Series
 
-### 1. Cache Architecture Series
+### 1. Cache Architecture Series (6 articles)
 
 Deep dive into CPU Cache design and optimization, from basics to practice.
 
-1. [Cache Basics: Understanding CPU Cache Through Libraries](topics/cache-architecture/01-cache-basics.md)
-2. [Understanding Cache Associativity: The Wisdom of Parking Lots](topics/cache-architecture/02-cache-associativity.md)
-3. [Modern CPU Cache Architecture: Design Philosophy from L1 to L3](topics/cache-architecture/03-modern-cache-design.md)
-4. [Cache Coherency and MESI Protocol: Consistency Challenges in Multi-Core Era](topics/cache-architecture/04-cache-coherency-mesi.md)
-5. [Cache Performance Optimization in Practice](topics/cache-architecture/05-cache-optimization.md)
-6. [False Sharing and Multi-Threading Optimization: The Invisible Performance Killer](topics/cache-architecture/06-false-sharing.md)
+Topics: Cache basics, Associativity, Modern cache design (L1-L3), MESI protocol, Performance optimization, False sharing
 
 ---
 
-### 2. Network-on-Chip Series
+### 2. Network-on-Chip Series (6 articles)
 
 Exploring on-chip communication architecture, from Bus to Network evolution.
 
-1. [Network-on-Chip Introduction: Evolution from Bus to Network](topics/network-on-chip/01-noc-introduction.md)
-2. [NoC Topology Analysis with Graph Theory](topics/network-on-chip/02-topology-graph-theory.md)
-3. [NoC Routing Algorithms and Deadlock Avoidance](topics/network-on-chip/03-routing-deadlock.md)
-4. [Router Microarchitecture Design: From Pipeline to Hardware](topics/network-on-chip/04-router-microarchitecture.md)
-5. [NoC and Cache Coherency Integration](topics/network-on-chip/05-noc-cache-coherency.md)
-6. [NoC and Advanced Packaging: Breaking Physical Boundaries](topics/network-on-chip/06-noc-advanced-packaging.md)
+Topics: NoC introduction, Topology with graph theory, Routing and deadlock, Router microarchitecture, Cache coherency integration, Advanced packaging
 
 ---
 
-### 3. Storage Architecture Series
+### 3. Storage Architecture Series (12 articles)
 
 Complete perspective from hardware to software on modern storage systems.
 
-1. [Storage Systems Introduction: From HDD to SSD](topics/storage-architecture/01-introduction.md)
-2. [SATA and AHCI: Deep Dive into Traditional Storage Interfaces](topics/storage-architecture/02-sata-ahci.md)
-3. [PCIe Architecture: Foundation of High-Speed Interconnect](topics/storage-architecture/03-pcie.md)
-4. [NVMe Protocol: Interface Born for SSDs](topics/storage-architecture/04-nvme.md)
-5. [CXL Technology: Fusion of Memory and Storage](topics/storage-architecture/05-cxl.md)
-6. [FTL Deep Dive: The Soul of SSDs](topics/storage-architecture/06-ftl.md)
-7. [GC and Wear Leveling: SSD Longevity Secrets](topics/storage-architecture/07-gc-wear-leveling.md)
-8. [Error Correction Codes: Guardians of Data Integrity](topics/storage-architecture/08-error-correction.md)
-9. [Advanced Topics: ZNS, Computational Storage](topics/storage-architecture/09-advanced-topics.md)
+Topics: HDD to SSD evolution, SATA/AHCI, PCIe architecture, NVMe protocol, CXL technology, FTL, GC and wear leveling, Error correction, ZNS, Database optimization, AI/ML workloads, Cloud storage
 
 ---
 
-### 4. Embedded RTOS Series
+### 4. Embedded RTOS Series (8 articles)
 
 Practice-oriented embedded RTOS development with FreeRTOS + RISC-V.
 
-1. [RTOS Introduction: Why Real-Time Operating Systems](topics/embedded-rtos/01-rtos-introduction.md)
-2. [Scheduler Deep Dive: The Art of Task Scheduling](topics/embedded-rtos/02-scheduler-deep-dive.md)
-3. [Interrupt Handling: The Heartbeat of Real-Time Systems](topics/embedded-rtos/03-interrupt-handling.md)
-4. [Memory Management: From heap_1 to heap_5](topics/embedded-rtos/04-memory-management.md)
-5. [Debugging with GDB + QEMU](topics/embedded-rtos/05-debugging-with-gdb-qemu.md)
-6. [RTOS SMP: Multi-Core Challenges](topics/embedded-rtos/06-rtos-smp.md)
-7. [Context Switch Assembly Deep Dive](topics/embedded-rtos/07-context-switch-assembly.md)
-8. [RISC-V Privilege Modes: M/S/U Mode](topics/embedded-rtos/08-privilege-modes.md)
+Topics: RTOS introduction, Scheduler deep dive, Interrupt handling, Memory management, GDB+QEMU debugging, SMP challenges, Context switch assembly, RISC-V privilege modes
 
 ---
 
-### 5. Bluetooth & IoT Series
+### 5. Bluetooth & IoT Series (21 articles)
 
 BLE protocol stack, wireless communication, IoT system integration.
 
-See [topics/bluetooth-wireless-iot/](topics/bluetooth-wireless-iot/) for complete article list (21 articles).
+Topics: BLE protocol stack (HCI, L2CAP, ATT/GATT, SMP), PHY/RF, WiFi/BT coexistence, Hardware interfaces (SPI, MIPI, I2C/UART/GPIO), Power optimization, Debugging, Certification, Zigbee comparison, Thread/Matter, AIoT, Security
 
 ---
 
-### 6. Building danieRTOS Series
+### 6. Building danieRTOS Series (40 articles)
 
 Building a RISC-V RTOS from scratch, narrative-style writing, 40 complete tutorials.
 
@@ -120,8 +95,6 @@ Building a RISC-V RTOS from scratch, narrative-style writing, 40 complete tutori
 | v1.x | Secure | 13-19 | User Mode: PMP, Syscall, Fault Handling |
 | v2.x | MSMP | 20-30 | SMP: Spinlock, IPI, Multi-core Scheduler |
 | v3.x | SMP | 31-40 | Integration: SMP + User Mode + Fault Isolation |
-
-See [topics/building-daniertos/README.md](topics/building-daniertos/README.md) for complete article list.
 
 ---
 

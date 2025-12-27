@@ -4,7 +4,7 @@
 
 [![Language](https://img.shields.io/badge/Language-繁體中文-blue)]()
 [![Series](https://img.shields.io/badge/Series-6-blue)]()
-[![Articles](https://img.shields.io/badge/Articles-90-blue)]()
+[![Articles](https://img.shields.io/badge/Articles-93-blue)]()
 [![License](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey)](https://creativecommons.org/licenses/by/4.0/)
 [![Author](https://img.shields.io/badge/Author-Danny%20Jiang-orange)]()
 [![Updated](https://img.shields.io/badge/Updated-Dec%202025-green)]()
@@ -32,107 +32,62 @@ Tech Column 是一個技術寫作專案，專注於系統架構、硬體設計�
 |------|--------|------|
 | Cache Architecture | 6 篇 | ~20,800 字 |
 | Network-on-Chip | 6 篇 | ~14,100 字 |
-| Storage Architecture | 9 篇 | ~39,200 字 |
+| Storage Architecture | 12 篇 | ~52,000 字 |
 | Embedded RTOS | 8 篇 | ~24,000 字 |
 | Bluetooth & IoT | 21 篇 | ~70,000 字 |
 | Building danieRTOS | 40 篇 | ~170,000 字 |
 
-**總計**: 90 篇文章，~338,100 字
+**總計**: 93 篇文章，~350,900 字
 
 ---
 
 ## 📚 文章系列
 
-### 1. Cache Architecture 系列
+### 1. Cache Architecture 系列（6 篇）
 
 深入探討 CPU Cache 的設計與優化，從基礎概念到實戰應用。
 
-1. [Cache 基礎概念入門：用圖書館理解 CPU Cache](topics/cache-architecture/01-cache-basics.md)
-2. [理解 Cache Associativity：停車場的智慧](topics/cache-architecture/02-cache-associativity.md)
-3. [現代 CPU Cache 架構設計：從 L1 到 L3 的設計哲學](topics/cache-architecture/03-modern-cache-design.md)
-4. [Cache Coherency 與 MESI 協議：多核心時代的一致性挑戰](topics/cache-architecture/04-cache-coherency-mesi.md)
-5. [Cache 性能優化實戰：從理論到實踐](topics/cache-architecture/05-cache-optimization.md)
-6. [False Sharing 與多執行緒優化：看不見的性能殺手](topics/cache-architecture/06-false-sharing.md)
+主題：Cache 基礎、Associativity、現代 Cache 設計（L1-L3）、MESI 協議、性能優化、False Sharing
 
 ---
 
-### 2. Network-on-Chip 系列
+### 2. Network-on-Chip 系列（6 篇）
 
 探索晶片內部的通訊架構，從 Bus 到 Network 的演進。
 
-1. [Network-on-Chip 入門：從 Bus 到 Network 的演進](topics/network-on-chip/01-noc-introduction.md)
-2. [NoC 拓撲結構的圖論分析：從數學到硬體](topics/network-on-chip/02-topology-graph-theory.md)
-3. [NoC 路由演算法與死鎖避免：從理論到實作](topics/network-on-chip/03-routing-deadlock.md)
-4. [Router 微架構設計：從 Pipeline 到硬體實作](topics/network-on-chip/04-router-microarchitecture.md)
-5. [NoC 與 Cache Coherency 整合：多核心的協調藝術](topics/network-on-chip/05-noc-cache-coherency.md)
-6. [NoC 與先進封裝：突破物理邊界](topics/network-on-chip/06-noc-advanced-packaging.md)
+主題：NoC 入門、圖論拓撲分析、路由與死鎖、Router 微架構、Cache Coherency 整合、先進封裝
 
 ---
 
-### 3. Storage Architecture 系列
+### 3. Storage Architecture 系列（12 篇）
 
 從硬體到軟體的完整視角，深入理解現代儲存系統。
 
-1. [儲存系統導論：從硬碟到 SSD 的演進](topics/storage-architecture/01-introduction.md)
-2. [SATA 與 AHCI：傳統儲存介面深度解析](topics/storage-architecture/02-sata-ahci.md)
-3. [PCIe 架構：高速互連的基石](topics/storage-architecture/03-pcie.md)
-4. [NVMe 協議：為 SSD 而生的介面](topics/storage-architecture/04-nvme.md)
-5. [CXL 技術：記憶體與儲存的融合](topics/storage-architecture/05-cxl.md)
-6. [FTL 深度解析：SSD 的靈魂](topics/storage-architecture/06-ftl.md)
-7. [GC 與 Wear Leveling：SSD 的長壽秘訣](topics/storage-architecture/07-gc-wear-leveling.md)
-8. [錯誤校正碼：資料完整性的守護者](topics/storage-architecture/08-error-correction.md)
-9. [進階主題：ZNS、Computational Storage](topics/storage-architecture/09-advanced-topics.md)
+主題：HDD 到 SSD 演進、SATA/AHCI、PCIe 架構、NVMe 協議、CXL 技術、FTL、GC 與 Wear Leveling、錯誤校正、ZNS、資料庫優化、AI/ML 工作負載、雲端儲存
 
 ---
 
-### 4. Embedded RTOS 系列
+### 4. Embedded RTOS 系列（8 篇）
 
 實務導向的嵌入式 RTOS 開發，以 FreeRTOS + RISC-V 為學習平台。
 
-1. [RTOS 入門：為什麼需要即時作業系統](topics/embedded-rtos/01-rtos-introduction.md)
-2. [Scheduler 深度解析：任務調度的藝術](topics/embedded-rtos/02-scheduler-deep-dive.md)
-3. [中斷處理：即時系統的心跳](topics/embedded-rtos/03-interrupt-handling.md)
-4. [記憶體管理：從 heap_1 到 heap_5](topics/embedded-rtos/04-memory-management.md)
-5. [GDB + QEMU 除錯實戰](topics/embedded-rtos/05-debugging-with-gdb-qemu.md)
-6. [RTOS SMP：多核心的挑戰](topics/embedded-rtos/06-rtos-smp.md)
-7. [Context Switch 組合語言深度解析](topics/embedded-rtos/07-context-switch-assembly.md)
-8. [RISC-V 特權模式：M/S/U mode](topics/embedded-rtos/08-privilege-modes.md)
+主題：RTOS 入門、Scheduler 深度解析、中斷處理、記憶體管理、GDB+QEMU 除錯、SMP 挑戰、Context Switch 組合語言、RISC-V 特權模式
 
 ---
 
-### 5. Bluetooth & IoT 系列
+### 5. Bluetooth & IoT 系列（21 篇）
 
 BLE 協議棧、無線通訊、IoT 系統整合。
 
-1. [藍牙技術入門](topics/bluetooth-wireless-iot/01-introduction.md)
-2. [藍牙協議棧架構](topics/bluetooth-wireless-iot/02-protocol-stack.md)
-3. [HCI 層深度解析](topics/bluetooth-wireless-iot/03-hci.md)
-4. [L2CAP 協議](topics/bluetooth-wireless-iot/04-l2cap.md)
-5. [ATT 與 GATT 協議](topics/bluetooth-wireless-iot/05-att-gatt.md)
-6. [SMP 安全管理](topics/bluetooth-wireless-iot/06-smp.md)
-7. [Beacon 技術](topics/bluetooth-wireless-iot/07-beacon.md)
-8. [PHY 與 RF 基礎](topics/bluetooth-wireless-iot/08-phy-rf.md)
-9. [WiFi/BT 共存](topics/bluetooth-wireless-iot/09-wifi-bt-coexistence.md)
-10. [SPI 介面](topics/bluetooth-wireless-iot/10-spi.md)
-11. [MIPI DSI 介面](topics/bluetooth-wireless-iot/11-mipi-dsi.md)
-12. [I2C/UART/GPIO 介面](topics/bluetooth-wireless-iot/12-i2c-uart-gpio.md)
-13. [BLE 功耗優化](topics/bluetooth-wireless-iot/13-ble-power-optimization.md)
-14. [系統功耗優化](topics/bluetooth-wireless-iot/14-system-power-optimization.md)
-15. [BLE 除錯技巧](topics/bluetooth-wireless-iot/15-ble-debugging.md)
-16. [Bluetooth SIG 認證](topics/bluetooth-wireless-iot/16-bluetooth-sig-certification.md)
-17. [Zigbee vs Bluetooth 比較](topics/bluetooth-wireless-iot/17-zigbee-vs-bluetooth.md)
-18. [RF4CE、Thread、Matter](topics/bluetooth-wireless-iot/18-rf4ce-thread-matter.md)
-19. [AIoT 整合](topics/bluetooth-wireless-iot/19-aiot.md)
-20. [智慧手錶案例研究](topics/bluetooth-wireless-iot/20-smartwatch-case-study.md)
-21. [IoT 安全](topics/bluetooth-wireless-iot/21-iot-security.md)
+主題：BLE 協議棧（HCI、L2CAP、ATT/GATT、SMP）、PHY/RF、WiFi/BT 共存、硬體介面（SPI、MIPI、I2C/UART/GPIO）、功耗優化、除錯、認證、Zigbee 比較、Thread/Matter、AIoT、安全
 
 ---
 
-### 6. Building danieRTOS 系列
+### 6. Building danieRTOS 系列（40 篇）
 
 從零打造 RISC-V RTOS，故事化寫作風格，40 篇完整教學。
 
-**danieRTOS** 是一個教育用途的 minimal RTOS，運行於 RISC-V 架構。本系列記錄從零開始打造 RTOS 的完整過程。
+**danieRTOS** 是一個教育用途的 minimal RTOS，運行於 RISC-V 架構。
 
 | 版本 | 別名 | 章節 | 核心功能 |
 |------|------|------|----------|
@@ -140,8 +95,6 @@ BLE 協議棧、無線通訊、IoT 系統整合。
 | v1.x | Secure | 13-19 | User Mode：PMP, Syscall, Fault Handling |
 | v2.x | MSMP | 20-30 | SMP：Spinlock, IPI, Multi-core Scheduler |
 | v3.x | SMP | 31-40 | 整合：SMP + User Mode + Fault Isolation |
-
-**文章列表**：參見 [topics/building-daniertos/README.md](topics/building-daniertos/README.md)
 
 ---
 
