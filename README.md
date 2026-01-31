@@ -2,12 +2,12 @@
 
 **In-Depth System Architecture and Hardware Design**
 
-[![Language](https://img.shields.io/badge/Language-繁體中文-blue)]()
-[![Series](https://img.shields.io/badge/Series-6-blue)]()
-[![Articles](https://img.shields.io/badge/Articles-93-blue)]()
+[![Language](https://img.shields.io/badge/Language-繁體中文%20%2B%20English-blue)]()
+[![Series](https://img.shields.io/badge/Series-7-blue)]()
+[![Articles](https://img.shields.io/badge/Articles-95-blue)]()
 [![License](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey)](https://creativecommons.org/licenses/by/4.0/)
 [![Author](https://img.shields.io/badge/Author-Danny%20Jiang-orange)]()
-[![Updated](https://img.shields.io/badge/Updated-Dec%202025-green)]()
+[![Updated](https://img.shields.io/badge/Updated-Jan%202026-green)]()
 
 ---
 
@@ -30,6 +30,7 @@ Tech Column is a technical writing project focused on system architecture, hardw
 
 | Series | Articles | Word Count |
 |--------|----------|------------|
+| Computer Architecture | 2 | ~9,000 |
 | Cache Architecture | 6 | ~20,800 |
 | Network-on-Chip | 6 | ~14,100 |
 | Storage Architecture | 12 | ~52,000 |
@@ -37,13 +38,23 @@ Tech Column is a technical writing project focused on system architecture, hardw
 | Bluetooth & IoT | 21 | ~70,000 |
 | Building danieRTOS | 40 | ~170,000 |
 
-**Total**: 93 articles, ~350,900 words (Traditional Chinese)
+**Total**: 95 articles, ~359,900 words
 
 ---
 
 ## 📚 Article Series
 
-### 1. Cache Architecture Series (6 articles)
+### 1. Computer Architecture Series (2 articles) 🆕
+
+Understanding CPU performance design from the architect's perspective.
+
+Topics: IPC (Instructions Per Cycle), Latency vs Occupation, Superscalar, Out-of-Order execution, Branch prediction, Cache effects, ROB sizing
+
+**Note**: This series is available in both Traditional Chinese and English (independently written, not translated).
+
+---
+
+### 2. Cache Architecture Series (6 articles)
 
 Deep dive into CPU Cache design and optimization, from basics to practice.
 
@@ -51,7 +62,7 @@ Topics: Cache basics, Associativity, Modern cache design (L1-L3), MESI protocol,
 
 ---
 
-### 2. Network-on-Chip Series (6 articles)
+### 4. Network-on-Chip Series (6 articles)
 
 Exploring on-chip communication architecture, from Bus to Network evolution.
 
@@ -59,7 +70,7 @@ Topics: NoC introduction, Topology with graph theory, Routing and deadlock, Rout
 
 ---
 
-### 3. Storage Architecture Series (12 articles)
+### 5. Storage Architecture Series (12 articles)
 
 Complete perspective from hardware to software on modern storage systems.
 
@@ -67,7 +78,7 @@ Topics: HDD to SSD evolution, SATA/AHCI, PCIe architecture, NVMe protocol, CXL t
 
 ---
 
-### 4. Embedded RTOS Series (8 articles)
+### 6. Embedded RTOS Series (8 articles)
 
 Practice-oriented embedded RTOS development with FreeRTOS + RISC-V.
 
@@ -75,7 +86,7 @@ Topics: RTOS introduction, Scheduler deep dive, Interrupt handling, Memory manag
 
 ---
 
-### 5. Bluetooth & IoT Series (21 articles)
+### 7. Bluetooth & IoT Series (21 articles)
 
 BLE protocol stack, wireless communication, IoT system integration.
 
@@ -83,7 +94,7 @@ Topics: BLE protocol stack (HCI, L2CAP, ATT/GATT, SMP), PHY/RF, WiFi/BT coexiste
 
 ---
 
-### 6. Building danieRTOS Series (40 articles)
+### 8. Building danieRTOS Series (40 articles)
 
 Building a RISC-V RTOS from scratch, narrative-style writing, 40 complete tutorials.
 
