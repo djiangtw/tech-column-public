@@ -30,7 +30,7 @@ Tech Column is a technical writing project focused on system architecture, hardw
 
 | Series | Articles | Word Count |
 |--------|----------|------------|
-| Computer Architecture | 2 | ~9,000 |
+| Computer Architecture | 2 | ~23,000 |
 | Cache Architecture | 6 | ~20,800 |
 | Network-on-Chip | 6 | ~14,100 |
 | Storage Architecture | 12 | ~52,000 |
@@ -38,7 +38,7 @@ Tech Column is a technical writing project focused on system architecture, hardw
 | Bluetooth & IoT | 21 | ~70,000 |
 | Building danieRTOS | 40 | ~170,000 |
 
-**Total**: 95 articles, ~359,900 words
+**Total**: 95 articles, ~373,900 words
 
 ---
 
@@ -46,9 +46,11 @@ Tech Column is a technical writing project focused on system architecture, hardw
 
 ### 1. Computer Architecture Series (2 articles) 🆕
 
-Understanding CPU performance design from the architect's perspective.
+Understanding CPU performance design and heterogeneous computing from the architect's perspective.
 
-Topics: IPC (Instructions Per Cycle), Latency vs Occupation, Superscalar, Out-of-Order execution, Branch prediction, Cache effects, ROB sizing
+**Article 01 - All Roads Lead to IPC**: IPC (Instructions Per Cycle), Latency vs Occupation, Superscalar, Out-of-Order execution, Branch prediction, Cache effects, ROB sizing
+
+**Article 02 - Heterogeneous System Architecture**: Six performance laws (Amdahl, Gustafson, USL, Roofline, Little's Law, Queuing Theory), Four processor types (CPU/GPU/NPU/DPU), Memory architectures (UMA/CXL/NVLink), Coherence protocols, MLIR, Data-oriented design
 
 **Note**: This series is available in both Traditional Chinese and English (independently written, not translated).
 
