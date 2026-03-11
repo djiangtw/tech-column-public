@@ -4,10 +4,10 @@
 
 [![Language](https://img.shields.io/badge/Language-繁體中文%20%2B%20English-blue)]()
 [![Series](https://img.shields.io/badge/Series-7-blue)]()
-[![Articles](https://img.shields.io/badge/Articles-95-blue)]()
+[![Articles](https://img.shields.io/badge/Articles-96-blue)]()
 [![License](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey)](https://creativecommons.org/licenses/by/4.0/)
 [![Author](https://img.shields.io/badge/Author-Danny%20Jiang-orange)]()
-[![Updated](https://img.shields.io/badge/Updated-Jan%202026-green)]()
+[![Updated](https://img.shields.io/badge/Updated-Feb%202026-green)]()
 
 ---
 
@@ -30,7 +30,7 @@ Tech Column is a technical writing project focused on system architecture, hardw
 
 | Series | Articles | Word Count |
 |--------|----------|------------|
-| Computer Architecture | 2 | ~23,000 |
+| Computer Architecture | 3 | ~31,500 |
 | Cache Architecture | 6 | ~20,800 |
 | Network-on-Chip | 6 | ~14,100 |
 | Storage Architecture | 12 | ~52,000 |
@@ -38,19 +38,21 @@ Tech Column is a technical writing project focused on system architecture, hardw
 | Bluetooth & IoT | 21 | ~70,000 |
 | Building danieRTOS | 40 | ~170,000 |
 
-**Total**: 95 articles, ~373,900 words
+**Total**: 96 articles, ~383,400 words
 
 ---
 
 ## 📚 Article Series
 
-### 1. Computer Architecture Series (2 articles) 🆕
+### 1. Computer Architecture Series (3 articles) 🆕
 
 Understanding CPU performance design and heterogeneous computing from the architect's perspective.
 
 **Article 01 - All Roads Lead to IPC**: IPC (Instructions Per Cycle), Latency vs Occupation, Superscalar, Out-of-Order execution, Branch prediction, Cache effects, ROB sizing
 
 **Article 02 - Heterogeneous System Architecture**: Six performance laws (Amdahl, Gustafson, USL, Roofline, Little's Law, Queuing Theory), Four processor types (CPU/GPU/NPU/DPU), Memory architectures (UMA/CXL/NVLink), Coherence protocols, MLIR, Data-oriented design
+
+**Article 03 - Workload-Driven CPU Selection**: TMAM (Top-Down Microarchitecture Analysis), CPU taxonomy (ARM Cortex-M/R/A/Neoverse vs RISC-V SiFive/XiangShan/Ventana), Five design scenarios (Ultra-Low Power, Real-Time Embedded, Rich Embedded, Mobile Computing, Cloud & AI Infrastructure), Performance laws application (Little's Law, Roofline Model, ILP/MLP analysis), PPA trade-offs
 
 **Note**: This series is available in both Traditional Chinese and English (independently written, not translated).
 
