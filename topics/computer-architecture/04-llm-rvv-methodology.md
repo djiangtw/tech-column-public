@@ -883,9 +883,8 @@ Computer Architecture 系列的演進邏輯:
 本文採用 **CC BY 4.0** (Creative Commons Attribution 4.0 International) 授權條款。
 您可以自由分享、改作本文,但需註明原作者與出處。
 
-**作者**: Danny Jiang  
-**原文出處**: https://github.com/djiangtw/tech-column-public  
-**聯絡方式**: danny.jiang@example.com  
+**作者**: Danny Jiang
+**原文出處**: https://github.com/djiangtw/tech-column-public
 
 ---
 

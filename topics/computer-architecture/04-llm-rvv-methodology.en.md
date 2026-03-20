@@ -865,9 +865,8 @@ The IntrinTrans framework teaches us a profound lesson about the future of softw
 This article is licensed under **CC BY 4.0** (Creative Commons Attribution 4.0 International).
 You are free to share and adapt this work, provided you give appropriate credit.
 
-**Author**: Danny Jiang  
-**Source**: https://github.com/djiangtw/tech-column-public  
-**Contact**: danny.jiang@example.com  
+**Author**: Danny Jiang
+**Source**: https://github.com/djiangtw/tech-column-public
 
 ---
 
