@@ -30,7 +30,7 @@ Tech Column is a technical writing project focused on system architecture, hardw
 
 | Series | Articles | Word Count |
 |--------|----------|------------|
-| Computer Architecture | 3 | ~31,500 |
+| Computer Architecture | 4 | ~39,700 |
 | Cache Architecture | 6 | ~20,800 |
 | Network-on-Chip | 6 | ~14,100 |
 | Storage Architecture | 12 | ~52,000 |
@@ -38,13 +38,13 @@ Tech Column is a technical writing project focused on system architecture, hardw
 | Bluetooth & IoT | 21 | ~70,000 |
 | Building danieRTOS | 40 | ~170,000 |
 
-**Total**: 96 articles, ~383,400 words
+**Total**: 97 articles, ~391,600 words
 
 ---
 
 ## 📚 Article Series
 
-### 1. Computer Architecture Series (3 articles) 🆕
+### 1. Computer Architecture Series (4 articles) 🆕
 
 Understanding CPU performance design and heterogeneous computing from the architect's perspective.
 
@@ -53,6 +53,8 @@ Understanding CPU performance design and heterogeneous computing from the archit
 **Article 02 - Heterogeneous System Architecture**: Six performance laws (Amdahl, Gustafson, USL, Roofline, Little's Law, Queuing Theory), Four processor types (CPU/GPU/NPU/DPU), Memory architectures (UMA/CXL/NVLink), Coherence protocols, MLIR, Data-oriented design
 
 **Article 03 - Workload-Driven CPU Selection**: TMAM (Top-Down Microarchitecture Analysis), CPU taxonomy (ARM Cortex-M/R/A/Neoverse vs RISC-V SiFive/XiangShan/Ventana), Five design scenarios (Ultra-Low Power, Real-Time Embedded, Rich Embedded, Mobile Computing, Cloud & AI Infrastructure), Performance laws application (Little's Law, Roofline Model, ILP/MLP analysis), PPA trade-offs
+
+**Article 04 - LLM-Driven RISC-V Vector Code Generation and Verification Methodology**: IntrinTrans framework, Multi-Agent FSM (Translator/Compilation/Test/Optimizer), VLA (Vector Length Agnosticism), Strip-mining, LMUL register pressure, Liveness Analysis, Architecture-Aware guardrails, Post-silicon verification (Trace Encoder/Funnel), Cache-aware optimization limitations
 
 **Note**: This series is available in both Traditional Chinese and English (independently written, not translated).
 
