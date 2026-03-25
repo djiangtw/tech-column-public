@@ -3,11 +3,11 @@
 **In-Depth System Architecture and Hardware Design**
 
 [![Language](https://img.shields.io/badge/Language-繁體中文%20%2B%20English-blue)]()
-[![Series](https://img.shields.io/badge/Series-7-blue)]()
-[![Articles](https://img.shields.io/badge/Articles-96-blue)]()
+[![Series](https://img.shields.io/badge/Series-8-blue)]()
+[![Articles](https://img.shields.io/badge/Articles-98-blue)]()
 [![License](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey)](https://creativecommons.org/licenses/by/4.0/)
 [![Author](https://img.shields.io/badge/Author-Danny%20Jiang-orange)]()
-[![Updated](https://img.shields.io/badge/Updated-Feb%202026-green)]()
+[![Updated](https://img.shields.io/badge/Updated-Mar%202026-green)]()
 
 ---
 
@@ -37,8 +37,9 @@ Tech Column is a technical writing project focused on system architecture, hardw
 | Embedded RTOS | 8 | ~24,000 |
 | Bluetooth & IoT | 21 | ~70,000 |
 | Building danieRTOS | 40 | ~170,000 |
+| Tech Events | 1 | ~12,200 |
 
-**Total**: 97 articles, ~391,600 words
+**Total**: 98 articles, ~403,800 words
 
 ---
 
@@ -112,6 +113,12 @@ Building a RISC-V RTOS from scratch, narrative-style writing, 40 complete tutori
 | v1.x | Secure | 13-19 | User Mode: PMP, Syscall, Fault Handling |
 | v2.x | MSMP | 20-30 | SMP: Spinlock, IPI, Multi-core Scheduler |
 | v3.x | SMP | 31-40 | Integration: SMP + User Mode + Fault Isolation |
+
+### 9. Tech Events Series (1 article)
+
+Architecture-aware deep dives on major industry events and product launches, focusing on how system architecture, hardware, and infrastructure evolve.
+
+**Article 01 - GTC 2026 Technical Review: How AI Factories Are Reshaping System Architecture**: From NVIDIA Vera CPU and NVFP4 numerical formats to NVLink/NVL72 clusters and AI Factory infrastructure, this series looks at GTC 2026 through the lens of performance laws, disaggregated inference, and large-scale system design.
 
 ---
 
