@@ -3,8 +3,8 @@
 **In-Depth System Architecture and Hardware Design**
 
 [![Language](https://img.shields.io/badge/Language-繁體中文%20%2B%20English-blue)]()
-[![Series](https://img.shields.io/badge/Series-8-blue)]()
-[![Articles](https://img.shields.io/badge/Articles-98-blue)]()
+[![Series](https://img.shields.io/badge/Series-9-blue)]()
+[![Articles](https://img.shields.io/badge/Articles-99-blue)]()
 [![License](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey)](https://creativecommons.org/licenses/by/4.0/)
 [![Author](https://img.shields.io/badge/Author-Danny%20Jiang-orange)]()
 [![Updated](https://img.shields.io/badge/Updated-Mar%202026-green)]()
@@ -38,8 +38,9 @@ Tech Column is a technical writing project focused on system architecture, hardw
 | Bluetooth & IoT | 21 | ~70,000 |
 | Building danieRTOS | 40 | ~170,000 |
 | Tech Events | 1 | ~12,200 |
+| Tech Reads | 1 | ~21,000 |
 
-**Total**: 98 articles, ~403,800 words
+**Total**: 99 articles, ~424,800 words
 
 ---
 
@@ -114,7 +115,17 @@ Building a RISC-V RTOS from scratch, narrative-style writing, 40 complete tutori
 | v2.x | MSMP | 20-30 | SMP: Spinlock, IPI, Multi-core Scheduler |
 | v3.x | SMP | 31-40 | Integration: SMP + User Mode + Fault Isolation |
 
-### 9. Tech Events Series (1 article)
+### 9. Tech Reads Series (1 article) 🆕
+
+In-depth reviews of foundational textbooks and research papers, bridging theory with system design practice.
+
+**Article 01 - A First Course in Information Theory: Bridging Shannon and System Architecture**: Connect information theory fundamentals (entropy, mutual information, channel capacity) with real-world system design. Topics include: Roofline Model as entropy bounds, Fano's Inequality in branch prediction, typicality in benchmarking methodology, rate-distortion theory in quantization, and information diagrams for understanding memory consistency models.
+
+**Note**: This series is available in both Traditional Chinese and English (independently written, not translated).
+
+---
+
+### 10. Tech Events Series (1 article)
 
 Architecture-aware deep dives on major industry events and product launches, focusing on how system architecture, hardware, and infrastructure evolve.
 
