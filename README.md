@@ -4,7 +4,7 @@
 
 [![Language](https://img.shields.io/badge/Language-繁體中文%20%2B%20English-blue)]()
 [![Series](https://img.shields.io/badge/Series-9-blue)]()
-[![Articles](https://img.shields.io/badge/Articles-99-blue)]()
+[![Articles](https://img.shields.io/badge/Articles-100-blue)]()
 [![License](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey)](https://creativecommons.org/licenses/by/4.0/)
 [![Author](https://img.shields.io/badge/Author-Danny%20Jiang-orange)]()
 [![Updated](https://img.shields.io/badge/Updated-Mar%202026-green)]()
@@ -37,10 +37,10 @@ Tech Column is a technical writing project focused on system architecture, hardw
 | Embedded RTOS | 8 | ~24,000 |
 | Bluetooth & IoT | 21 | ~70,000 |
 | Building danieRTOS | 40 | ~170,000 |
-| Tech Events | 1 | ~12,200 |
+| Tech Events | 2 | ~45,000 |
 | Tech Reads | 1 | ~21,000 |
 
-**Total**: 99 articles, ~424,800 words
+**Total**: 100 articles, ~457,600 words
 
 ---
 
@@ -125,11 +125,15 @@ In-depth reviews of foundational textbooks and research papers, bridging theory 
 
 ---
 
-### 10. Tech Events Series (1 article)
+### 10. Tech Events Series (2 articles)
 
 Architecture-aware deep dives on major industry events and product launches, focusing on how system architecture, hardware, and infrastructure evolve.
 
 **Article 01 - GTC 2026 Technical Review: How AI Factories Are Reshaping System Architecture**: From NVIDIA Vera CPU and NVFP4 numerical formats to NVLink/NVL72 clusters and AI Factory infrastructure, this series looks at GTC 2026 through the lens of performance laws, disaggregated inference, and large-scale system design.
+
+**Article 02 - Breaking Compute Anxiety: How Arm AGI CPU Reshapes Agentic AI Infrastructure**: From the DGX Spark paradox to Meta's heterogeneous clusters, OpenAI's MCTS reasoning trees, and Cloudflare's edge defense—explore how Arm's 136-core AGI CPU tackles Agentic AI's three core challenges: memory bandwidth walls, deterministic latency, and rack-scale economics. Topics: Information entropy in workload characterization, CXL 3.0 zero-copy orchestration, SMT abandonment rationale, P-E-C Triangle optimization, and why ASIC cannot replace CPU in high-entropy scenarios.
+
+**Note**: This series is available in both Traditional Chinese and English (independently written, not translated).
 
 ---
 
